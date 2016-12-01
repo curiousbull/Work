@@ -1,0 +1,16 @@
+
+* DONE Chapter1 ~ Chapter7 
+  CLOSED: [2016-12-01 四 15:51]
+  - State "DONE"       from              [2016-12-01 四 15:51]
+  初步整理完成，需要在 Chapter6 中，any equilibrium 需要加入 any type 的内容
+
+* TODO 整合工作
+
+** TODO 所有章节整合 [1/3]
+   - State "TODO"       from "DONE"       [2016-12-01 四 15:52]
+   - [X] 初步完成整合
+   - [ ] 参考文献转换为 bib
+   - [ ] 分章节细节修改 [/]
+     - [ ] 图片的引用，大小格式调整
+     - [ ] 表格的格式调整
+     - [ ] 文献的引用调整
