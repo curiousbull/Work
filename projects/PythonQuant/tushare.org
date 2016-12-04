@@ -1,0 +1,66 @@
+#+TITLE: TUSHARE 模块的学习手册
+#+AUTHOR: Huchen
+
+* 安装
+  #+BEGIN_SRC python
+    pip install tushare
+  #+END_SRC
+
+* 获取行情
+
+** 简单的获取行情
+   #+BEGIN_SRC python
+     import tushare as ts
+
+     # 获取浦发银行的历史行情
+     ts.get_hist_data('600000')
+   #+END_SRC
+
+
+** 获取指定日期的行情
+   #+BEGIN_SRC python
+     import tushare as ts
+
+     # 获取从 2015-12-03 到 2016-12-03 浦发银行行情
+     ts.get_hist_data('600000',start='2015-12-03',end='2016-12-03')
+   #+END_SRC
+
+** 获取复权历史数据
+   #+BEGIN_SRC python
+     import tushare as ts
+
+     ts.get_h_data('600000') #前复权
+     ts.get_h_data('600000',autype='hfq') #后复权
+     ts.get_h_data('600000',autype=None) #不复权
+     ts.get_h_data('600000',start='2015-12-03',end='2016-12-03') #两个历史时期的前复权数据
+     ts.get_h_data('600000',start='2015-12-03',end='2016-12-03',autype='hfq') #两个历史时期的后复权数据
+   #+END_SRC
+
+** 获取最近一个交易日所有股票数据
+   #+BEGIN_SRC python
+     import tushare as ts
+
+     ts.get_today_all()
+   #+END_SRC
+
+** 获取历史分笔数据
+   #+BEGIN_SRC python
+     import tushare as ts
+
+     ts.get_tick_data('600000',date='2015-12-03')
+   #+END_SRC
+
+** 获取实时交易数据
+   #+BEGIN_SRC python
+     import tushare as ts
+
+     ts.get_realtime_quotes('600000')
+   #+END_SRC
+
+   如果需要一次获取多支股票 (最好不要一次超过三十支)
+   
+   #+BEGIN_SRC python
+     import tushare as ts
+
+     ts.get_realtime_quotes(['600000','600666','000333'])
+   #+END_SRC
