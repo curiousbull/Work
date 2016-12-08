@@ -189,6 +189,10 @@
     + 支出： -141.5
     + 总支出： -141.5
 
+      
+*** Day8
+    + 交通： -2.00 (M209 雅豪轩 --> 桂庙村口)
+    + 交通： -0.50 (funbike 办公楼 --> 蓬莱客栈)
 * Daily Task
 
 ** DONE 王雄混沌书籍前两章，精修
@@ -221,7 +225,8 @@
    :END:
 ** STARTED 利用 tushare 提供的数据，画出 K 线图
    SCHEDULED: <2016-12-05 一>
-*** WAITING Pandas 模块学习
+*** STARTED Pandas 模块学习
+    - State "STARTED"    from "WAITING"    [2016-12-08 四 10:05]
     - State "WAITING"    from "STARTED"    [2016-12-05 周一 23:34] \\
       需要整理笔记，另外需要扩充，pandas 模块非常有用
     :LOGBOOK:
@@ -245,3 +250,10 @@
 ** DONE 交叉学科论坛
    CLOSED: [2016-12-07 周三 23:48] SCHEDULED: <2016-12-07 周三>
    - State "DONE"       from              [2016-12-07 周三 23:48]
+** WAITING 办理户口迁移
+   SCHEDULED: <2016-12-08 四>
+   - State "WAITING"    from "STARTED"    [2016-12-08 四 10:52] \\
+     先去南山公安分局，然后去粤海派出所，最后再回深大保卫处交户籍卡
+   :LOGBOOK:
+   CLOCK: [2016-12-08 四 10:20]--[2016-12-08 四 10:52] =>  0:32
+   :END:
