@@ -34,10 +34,43 @@
 
 * 查看数据
 
-  #+BEGIN_SRC python
-  
-  #+END_SRC
+  1. 查看头部
 
+     #+BEGIN_SRC python
+       df.head()
+     #+END_SRC
+
+  2. 查看尾部
+     #+BEGIN_SRC python
+       df.tail(3)
+     #+END_SRC
+       
+  3. 显示索引、列和底层的numpy数据
+     #+BEGIN_SRC python
+       df.index()
+       df.columns()
+       df.values()
+     #+END_SRC
+
+  4. =describe= 对数据统计快速汇总
+     #+BEGIN_SRC python
+       df.describe()
+     #+END_SRC
+      
+  5. 对数据转置
+     #+BEGIN_SRC python
+       df.T
+     #+END_SRC
+       
+  6. 按轴进行排序
+     #+BEGIN_SRC python
+       df.sort_index(axis=1,acending=False)
+     #+END_SRC
+       
+  7. 按值进行排序
+     #+BEGIN_SRC python
+       df.sort('B')
+     #+END_SRC
 * 数据选择
 
 * 缺失数据处理
