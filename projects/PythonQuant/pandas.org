@@ -1,0 +1,61 @@
+#+TITLE: Pandas Tutorial Notebook
+#+AUTHOR: 胡琛
+* 导入模块
+  
+  #+BEGIN_SRC python
+    import numpy as np
+    import pandas as pd
+    import matploblib.pyplot as plt
+  #+END_SRC
+
+* 对象创建 (Object Creation)
+  
+** Series
+
+   #+BEGIN_SRC python
+     s = pd.Series([1,3,5,np.nan,6,8])
+   #+END_SRC
+
+** DataFrame
+
+   #+BEGIN_SRC python
+     dates = pd.date_range('20130101', periods = 6)
+     df = pd.Dataframe(np.random.randn(6,4), index=dates,columns=list('ABCD'))
+   #+END_SRC
+
+   #+BEGIN_SRC python
+     df2 = pd.DataFrame({'A':1,
+                         'B':pd.Timestamp('20130102'),
+                         'C':np.array([3]*4,dtype='int32'),
+                         'D':pd.Series(1,index=list(range(4)),dtype='float32'),
+                         'E':pd.Categorical(['test','train','test','train']),
+                         'F':'foot'})
+   #+END_SRC
+
+* 查看数据
+
+  #+BEGIN_SRC python
+  
+  #+END_SRC
+
+* 数据选择
+
+* 缺失数据处理
+
+* 操作
+
+* 合并
+
+* 分组
+
+* 重组 (Reshaping)
+
+* 时间序列
+
+* 分类
+
+* 作图
+
+* 数据导入导出
+
+* 陷阱
