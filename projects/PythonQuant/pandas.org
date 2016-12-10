@@ -166,9 +166,48 @@
         df2[df2 > 0] = -df2
       #+END_SRC
 * 缺失数据处理
-
+  pandas 主要用 'np.nan' 作为缺失数据，该值不会参与运算
+  1. reindexing 允许你 change/add/delete 指定轴上的 index. 该操作会返回数据的 copy
+     #+BEGIN_SRC python
+       df1 = df.reindex(index=dates[0:4], columns = list(df.columns) + ['E'])
+       df1.loc[dates[0]:dates[1], 'E'] = 1
+     #+END_SRC
+  2. *To drop any rows that have missing data*
+     #+BEGIN_SRC python
+       df1.dropna(how='any')
+     #+END_SRC
+  3. Fill missing data
+     #+BEGIN_SRC python
+       df1.fillna(value=5)
+     #+END_SRC
+  4. To get boolean mask where values are nan
+     #+BEGIN_SRC python
+       pd.isnull(df1)
+     #+END_SRC
 * 操作
-
+  Operation in general exclude missing data
+** 统计
+   1. Performing a descriptive statics
+      #+BEGIN_SRC python
+        df.mean()
+      #+END_SRC
+   2. Same operation on the other axis
+      #+BEGIN_SRC python
+        df.mean(1)
+      #+END_SRC
+   3. Operating with objects that have different dimensionality and need alignment. 
+      In addition, pandas automatically broadcasts along the specified dimension.
+      #+BEGIN_SRC python
+        s = pd.Series([1,3,5,np.nan,5,8], index=dates).shift(2)
+        df.sub(s,axis='index')
+      #+END_SRC
+** 应用
+   1. Applying functions to the data
+      #+BEGIN_SRC python
+        df.apply(np.cumsum)
+      #+END_SRC
+** 直方图
+** String Methods
 * 合并
 
 * 分组
