@@ -372,10 +372,11 @@
 *** DONE 分章添加摘要信息
     CLOSED: [2016-12-12 一 14:33]
     - State "DONE"       from "TODO"       [2016-12-12 一 14:33]
-*** WAITING 表格格式调整
+*** STARTED 表格格式调整
     - State "WAITING"    from "STARTED"    [2016-12-12 一 19:40] \\
       So fucking large work
     :LOGBOOK:
+    CLOCK: [2016-12-14 三 14:47]--[2016-12-14 三 15:12] =>  0:25
     CLOCK: [2016-12-12 一 16:14]--[2016-12-12 一 16:39] =>  0:25
     :END:
 *** TODO Any number equilibrium 添加 any type 内容
