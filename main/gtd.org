@@ -429,7 +429,9 @@
 ** DONE 股票复盘与学习
    CLOSED: [2016-12-16 Fri 22:26] SCHEDULED: <2016-12-16 Fri 21:50>
    - State "DONE"       from              [2016-12-16 Fri 22:26]
-** STARTED 吴总课程与出书计划讨论
+** DONE 吴总课程与出书计划讨论
+   CLOSED: [2016-12-17 Sat 11:48]
+   - State "DONE"       from "STARTED"    [2016-12-17 Sat 11:48]
    :LOGBOOK:
-   CLOCK: [2016-12-17 Sat 09:33]
+   CLOCK: [2016-12-17 Sat 09:33]--[2016-12-17 Sat 11:48] =>  2:15
    :END:
