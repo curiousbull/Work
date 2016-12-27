@@ -390,7 +390,11 @@
     + 交通： -0.50 (摩拜单车)
     + 支出： -3642.00
     + 总支出： -3642.00
-
+*** Day27
+    + 交通： -2.00 (M209 雅豪轩 --> 桂庙村口)
+    + 午饭： -31.00 (桂庙海鲜拉面)
+    + 咖啡： -31.00 (Starbucks 拿铁)
+      
 * Daily Task
 
 ** DONE 王雄混沌书籍前两章，精修
@@ -548,4 +552,11 @@
 ** STARTED 学习指标 =OBV=
    :LOGBOOK:
    CLOCK: [2016-12-21 Wed 12:52]--[2016-12-21 Wed 12:58] =>  0:06
+   :END:
+** WAITING 王雄混沌书籍，补全 Any Type Equilibrium 章节
+   DEADLINE: <2016-12-27 Tue 15:00>
+   - State "WAITING"    from "STARTED"    [2016-12-27 Tue 15:10] \\
+     等待参考文献准备 OK
+   :LOGBOOK:
+   CLOCK: [2016-12-27 Tue 13:55]--[2016-12-27 Tue 15:17] =>  1:22
    :END:
