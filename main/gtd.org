@@ -82,7 +82,15 @@
      :END:
      1. 看到 tushare 公众号有推送用 JS 作图，嗯，我先试试看 --> 算了，实验失败，requireJS 不会使用，出错
 ** TODO TradeBlazer 学习
-
+** TODO 指标大全
+   1. 指标的解释
+   2. 指标的表现，测试
+   3. 为什么亏钱，找出来，说明原因
+** TODO 典型指标策略改进
+   1. 每个指标改进为可赚钱的策略
+   2. 非指标类策略，譬如海龟策略
+** TODO 组合策略
+   1. 策略在多品种多周期组合
 * Miscellaneous
 
 ** DONE 邀请云云来深大玩
@@ -119,6 +127,11 @@
    - State "DONE"       from "STARTED"    [2016-12-24 Sat 12:01]
    :LOGBOOK:
    CLOCK: [2016-12-24 Sat 09:35]--[2016-12-24 Sat 12:01] =>  2:26
+   :END:
+** STARTED 中信证券会议
+   SCHEDULED: <2016-12-29 Thu 13:30>
+   :LOGBOOK:
+   CLOCK: [2016-12-29 Thu 13:38]--[2016-12-29 Thu 15:10] =>  1:32
    :END:
 * Finance
 
