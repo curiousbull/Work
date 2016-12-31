@@ -407,6 +407,11 @@
     + 交通： -2.00 (M209 雅豪轩 --> 桂庙村口)
     + 午饭： -31.00 (桂庙海鲜拉面)
     + 咖啡： -31.00 (Starbucks 拿铁)
+*** Day30
+    + 交通： -2.00 (M209 雅豪轩 --> 桂庙村口)
+    + 午饭： -18.00 (桂庙炭烧鸡翅饭)
+    + 水果： -21.00 (桂庙水果町)
+    + 咖啡： -31.00 (Starbucks 拿铁)
       
 * Daily Task
 
@@ -496,8 +501,9 @@
    CLOCK: [2016-12-08 四 10:20]--[2016-12-08 四 10:52] =>  0:32
    :END:
 *** TODO 网上提前一周预约
-** TODO 王雄混沌书籍精修版本 1
-   SCHEDULED: <2016-12-20 Tue 09:00> DEADLINE: <2016-12-08 四 21:30>
+** DONE 王雄混沌书籍精修版本 1
+   CLOSED: [2016-12-30 Fri 13:15] SCHEDULED: <2016-12-20 Tue 09:00> DEADLINE: <2016-12-08 四 21:30>
+   - State "DONE"       from "TODO"       [2016-12-30 Fri 13:15]
    - State "TODO"       from "WAITING"    [2016-12-12 一 13:30]
    - State "WAITING"    from "TODO"       [2016-12-08 四 19:09] \\
      现用 latex 模板，压根无法达到可使用效果，应该考虑更换模板
@@ -566,10 +572,13 @@
    :LOGBOOK:
    CLOCK: [2016-12-21 Wed 12:52]--[2016-12-21 Wed 12:58] =>  0:06
    :END:
-** WAITING 王雄混沌书籍，补全 Any Type Equilibrium 章节
-   DEADLINE: <2016-12-27 Tue 15:00>
+** DONE 王雄混沌书籍，补全 Any Type Equilibrium 章节
+   CLOSED: [2016-12-30 Fri 14:49] DEADLINE: <2016-12-27 Tue 16:00>
+   - State "DONE"       from "STARTED"    [2016-12-30 Fri 14:49]
+   - State "STARTED"    from "WAITING"    [2016-12-30 Fri 13:15]
    - State "WAITING"    from "STARTED"    [2016-12-27 Tue 15:10] \\
      等待参考文献准备 OK
    :LOGBOOK:
+   CLOCK: [2016-12-30 Fri 13:15]--[2016-12-30 Fri 14:49] =>  1:34
    CLOCK: [2016-12-27 Tue 13:55]--[2016-12-27 Tue 15:17] =>  1:22
    :END:
