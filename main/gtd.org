@@ -590,12 +590,15 @@
    CLOCK: [2016-12-20 Tue 12:59]--[2016-12-20 Tue 13:18] =>  0:19
    CLOCK: [2016-12-20 Tue 12:32]--[2016-12-20 Tue 12:57] =>  0:25
    :END:
-** TODO 利用 TB，将暑期讲习班策略实现并放入模拟盘
-   SCHEDULED: <2016-12-21 Wed 10:00>
+** DONE 利用 TB，将暑期讲习班策略实现并放入模拟盘
+   CLOSED: [2017-01-11 三 21:15] SCHEDULED: <2016-12-21 Wed 10:00>
+   - State "DONE"       from "STARTED"    [2017-01-11 三 21:15]
 ** DONE 看盘总结
    CLOSED: [2016-12-21 Wed 12:51]
    - State "DONE"       from "TODO"       [2016-12-21 Wed 12:51]
-** STARTED 学习指标 =OBV=
+** DONE 学习指标 =OBV=
+   CLOSED: [2017-01-11 三 21:15]
+   - State "DONE"       from "STARTED"    [2017-01-11 三 21:15]
    :LOGBOOK:
    CLOCK: [2016-12-21 Wed 12:52]--[2016-12-21 Wed 12:58] =>  0:06
    :END:
@@ -609,16 +612,26 @@
    CLOCK: [2016-12-30 Fri 13:15]--[2016-12-30 Fri 14:49] =>  1:34
    CLOCK: [2016-12-27 Tue 13:55]--[2016-12-27 Tue 15:17] =>  1:22
    :END:
-** STARTED TB 模拟盘使用
-   DEADLINE: <2017-01-06 Fri 22:00>
+** DONE TB 模拟盘使用
+   CLOSED: [2017-01-11 三 21:15] DEADLINE: <2017-01-06 Fri 22:00>
+   - State "DONE"       from "STARTED"    [2017-01-11 三 21:15]
    :LOGBOOK:
    CLOCK: [2017-01-07 Sat 14:02]--[2017-01-07 Sat 14:15] =>  0:13
    :END:
 *** Hint
     一个想法，利用二十日 MA 和 EMA 实现，如果 EMA 上穿 MA，而且 MA 斜率不小于 0，买入；
     反之，沽空。
-** STARTED 复盘
+** DONE 复盘
+   CLOSED: [2017-01-11 三 21:15]
+   - State "DONE"       from "STARTED"    [2017-01-11 三 21:15]
    :LOGBOOK:
    CLOCK: [2017-01-09 Mon 23:15]
    CLOCK: [2017-01-09 Mon 22:11]--[2017-01-09 Mon 22:17] =>  0:06
    :END:
+** STARTED 实习生简历筛选与回复
+   - State "STARTED"    from "DONE"       [2017-01-12 四 00:24]
+   :LOGBOOK:
+   CLOCK: [2017-01-12 四 00:24]
+   :END:
+
+   
